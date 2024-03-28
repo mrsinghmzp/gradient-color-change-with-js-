@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing:  border-box;
+   font-family: 'Gilroy';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(252, 251, 251);
+}
+
+h1{
+    font-size: 200;
+    margin-left: 150px;
+  color: rgb(100, 150,200 );
+}
+#container{
+    height: 400px;
+    width: 800px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 12px rgba(6, 7, 7, 0.536);
+  transform :translate(-50%, -50%);
+    
+}
+
